@@ -1,7 +1,14 @@
 {
+  "version": "1.0.0",
+  "author": "partyKyoung <partykyoung@gmail.com>",
   "dependencies": {
+    "date-fns": "^2.22.1",
     "gatsby": "^3.9.1",
+    "inquirer": "^8.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "new-post": " node ./scripts/create-new-post.js"
   }
 }
